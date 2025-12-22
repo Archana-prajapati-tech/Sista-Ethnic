@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sista Ethnic Wear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 class="title">Our Products</h2>
+
+<div id="productList" class="product-list"></div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">← Back</span>
+
+    <p id="modalCategory"></p>
+    <h3 id="modalProductName"></h3>
+    <p id="modalProductPrice"></p>
+
+    <div id="modalImages" class="images"></div>
+
+    <div id="modalSizeDiv">
+      <label>Size</label>
+      <select id="modalSize"></select>
+    </div>
+
+    <div id="modalLengthDiv">
+      <label>Length</label>
+      <select id="modalLength"></select>
+    </div>
+
+    <div id="modalColorDiv">
+      <label>Color</label>
+      <select id="modalColor"></select>
+    </div>
+
+    <h4>Size Chart</h4>
+    <table id="modalSizeChart"></table>
+
+    <h4>Reviews</h4>
+    <p>⭐⭐⭐⭐☆ Loved by customers</p>
+
+    <button onclick="orderNow()">Order on WhatsApp</button>
+  </div>
+</div>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
