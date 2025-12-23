@@ -26,9 +26,15 @@ const products = [
     images: ["images/image.png"],
     colors: ["Gold", "Silver"],
     rating: 4.3
-  }
-  { id:4,
-  name:"Archana",
-  }
+  },
+ {
+  id: 1009,
+  name: "Keyboard",
+  category: "Electronics",
+  price: 1500,
+ images:["images/vk.png"],
+}
+
 ];
+
 
