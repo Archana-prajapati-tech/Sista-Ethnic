@@ -27,4 +27,8 @@ const products = [
     colors: ["Gold", "Silver"],
     rating: 4.3
   }
+  { id:4,
+  name:"Archana",
+  }
 ];
+
